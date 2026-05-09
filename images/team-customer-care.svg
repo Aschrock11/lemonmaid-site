@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Customer Care</title>
+  <desc id="desc">Illustrative portrait tile for LemonMaid customer care representative.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff0df"/>
+      <stop offset="100%" stop-color="#ffd9b5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="600" cy="340" r="150" fill="#f1c2a2"/>
+  <rect x="430" y="500" width="340" height="250" rx="40" fill="#5f3b6c"/>
+  <circle cx="790" cy="530" r="55" fill="#ffffff"/>
+  <path d="M450 312c25-130 280-132 302 15" fill="#3a2b25"/>
+  <text x="600" y="820" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="52" fill="#47223d">Customer Care</text>
+</svg>
