@@ -1,6 +1,7 @@
 :root {
-  --lemon: #F5C518;
-  --lemon-dark: #D4A800;
+  --lemon: #F5D547;
+  --lemon-dark: #D4B520;
+  --green: #0D5C3C;
   --white: #FFFFFF;
   --charcoal: #2D2D2D;
   --light: #F7F7F7;
@@ -31,8 +32,9 @@ img { max-width: 100%; height: auto; }
   position: sticky; top: 0; z-index: 2000; background: #fff; border-bottom: 1px solid #eee;
 }
 .nav-wrap { display: flex; align-items: center; justify-content: space-between; min-height: 74px; }
-.logo { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.2rem; text-decoration: none; }
-.logo span { color: #7a6500; }
+.logo { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.2rem; text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.logo img { height: 50px; width: auto; }
+.logo span { color: var(--green); display: none; }
 .nav-links { display: flex; gap: 18px; align-items: center; }
 .nav-links a { text-decoration: none; font-weight: 600; }
 .nav-links a.active { text-decoration: underline; text-underline-offset: 4px; }
@@ -45,10 +47,10 @@ img { max-width: 100%; height: auto; }
   border: 2px solid transparent;
   transition: .2s ease;
 }
-.btn-primary { background: var(--lemon); color: var(--charcoal); }
-.btn-primary:hover { background: var(--lemon-dark); }
-.btn-ghost { border-color: var(--charcoal); color: var(--charcoal); }
-.btn-ghost:hover { background: var(--charcoal); color: #fff; }
+.btn-primary { background: var(--lemon); color: var(--green); }
+.btn-primary:hover { background: var(--lemon-dark); color: var(--green); }
+.btn-ghost { border-color: var(--green); color: var(--green); }
+.btn-ghost:hover { background: var(--green); color: #fff; }
 .menu-toggle { display: none; background: none; border: 0; font-size: 1.6rem; }
 .hero {
   min-height: 85vh;
@@ -80,10 +82,10 @@ img { max-width: 100%; height: auto; }
   border-radius: 8px;
   padding: 22px;
   box-shadow: 0 8px 28px rgba(0,0,0,0.06);
-  border-top: 4px solid var(--lemon);
+  border-top: 4px solid var(--green);
 }
 .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
-.step-num { font-size: 2.5rem; color: var(--lemon-dark); font-weight: 700; }
+.step-num { font-size: 2.5rem; color: var(--lemon); font-weight: 700; }
 .table-wrap { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; }
 th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
